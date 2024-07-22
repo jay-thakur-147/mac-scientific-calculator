@@ -1,6 +1,6 @@
  :root {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, sans-serif;
+    Ubuntu, Cantarell;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -11,47 +11,32 @@
 }
 button {
   font-family: inherit;
-  padding: 1rem; /* Increased padding */
+  padding: 0.5rem 1rem;
   cursor: pointer;
   background-color: rgb(97, 94, 94);
+  box-sizing: border-box;
   border: none;
+  padding: 0 auto;
   text-align: center;
   color: #fff;
   border-radius: 4px;
-  transition: background-color 0.3s, transform 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-button:hover {
-  background-color: rgb(77, 74, 74);
-  transform: scale(1.05);
 }
 td {
   border: solid black 1px;
   background-color: rgb(97, 94, 94);
   border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-  transition: background-color 0.3s;
-}
-td:hover {
-  background-color: rgb(77, 74, 74);
 }
 #root {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
 }
 .container-small {
-  margin-top: 50px;
+  margin-top:50px;
   border: solid black 2px;
   border-radius: 10px;
+  /* background-color: black; */
   background-color: black;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
 }
 .screen {
   height: 100px;
@@ -61,24 +46,10 @@ td:hover {
   color: #fff;
   font-size: 35px;
   text-align: right;
-  padding: 20px; /* Increased padding for better spacing */
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
-  overflow: hidden; /* Ensures content doesn't overflow */
 }
 .arithmetic {
   background-color: rgb(203, 152, 1);
-  font-size: 25px; /* Increased font size for better visibility */
-  color: #fff;
-  border-radius: 4px;
-  transition: background-color 0.3s, transform 0.3s;
-  padding: 20px; /* Added padding for better spacing */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.arithmetic:hover {
-  background-color: rgb(183, 132, 1);
-  transform: scale(1.05);
+  font-size: 15px;
 }
 #yellow {
   background-color: rgb(203, 152, 1);
@@ -90,9 +61,6 @@ td:hover {
 }
 .head {
   font-size: 50px;
-  color: rgb(203, 152, 1);
-  text-shadow: 1px 1px 2px black;
 }
-
 
  
