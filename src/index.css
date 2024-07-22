@@ -1,98 +1,80 @@
- :root {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, sans-serif;
+:root {
+  font-family: Inter, Open Sans, Montserrat;
   line-height: 1.5;
   font-weight: 400;
 }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 button {
   font-family: inherit;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  background-color: rgb(97, 94, 94);
+  background-color: #ff9900; /* updated color */
   border: none;
+  padding: 0 auto;
   text-align: center;
   color: #fff;
   border-radius: 4px;
-  transition: background-color 0.3s, transform 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added shadow */
 }
-button:hover {
-  background-color: rgb(77, 74, 74);
-  transform: scale(1.05);
-}
+
 td {
   border: solid black 1px;
-  background-color: rgb(97, 94, 94);
+  background-color: #fff; /* updated color */
   border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-  transition: background-color 0.3s;
 }
-td:hover {
-  background-color: rgb(77, 74, 74);
-}
+
 #root {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px; /* added padding */
 }
+
 .container-small {
   margin-top: 50px;
   border: solid black 2px;
   border-radius: 10px;
-  background-color: black;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  background-color: #fff; /* updated color */
+  padding: 20px; /* added padding */
 }
+
 .screen {
   height: 100px;
   width: 100%;
   border-radius: 10px;
-  background-color: rgb(57, 57, 57);
+  background-color: #333; /* updated color */
   color: #fff;
   font-size: 35px;
   text-align: right;
-  padding: 20px; /* Increased padding for better spacing */
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
-  overflow: hidden; /* Ensures content doesn't overflow */
+  padding: 20px; /* added padding */
 }
+
 .arithmetic {
-  background-color: rgb(203, 152, 1);
-  font-size: 25px; /* Increased font size for better visibility */
-  color: #fff;
-  border-radius: 4px;
-  transition: background-color 0.3s, transform 0.3s;
-  padding: 20px; /* Added padding for better spacing */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #ff9900; /* updated color */
+  font-size: 15px;
 }
-.arithmetic:hover {
-  background-color: rgb(183, 132, 1);
-  transform: scale(1.05);
-}
+
 #yellow {
-  background-color: rgb(203, 152, 1);
+  background-color: #ff9900; /* updated color */
 }
+
 .pre {
   margin-top: 10px;
   margin-left: 90px;
   font-size: 20px;
 }
+
 .head {
   font-size: 50px;
-  color: rgb(203, 152, 1);
-  text-shadow: 1px 1px 2px black;
+  color: #ff9900; /* updated color */
 }
 
 
+ 
 
